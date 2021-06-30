@@ -15,7 +15,7 @@ public class WelcomeRestController {
 	@GetMapping(value = "/welcome")
 	public ResponseEntity<String> getMsg() {
 		logger.info("getMsg () method called");
-		
+		System.out.println("getMsg method is called.......!!");
 		String welcomeMsg = "Welcome to NICE SOFTWARE SOLUTIONS...!!";
 		
 		logger.info("getMsg () method executed");
